@@ -19,7 +19,7 @@ public class ApiController {
     @Autowired
     private ApiService apiService;
 
-    @PostMapping("/addDetails")
+    @PostMapping("/")
     public boolean addDetails(@RequestBody Customer customer)
     {
         return apiService.addDetails(customer);
