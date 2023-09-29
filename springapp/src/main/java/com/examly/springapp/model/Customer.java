@@ -1,6 +1,10 @@
 package com.examly.springapp.model;
 
-
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.CascadeType;
+import javax.persistence.JoinColumn;
 
 @Entity
 public class Customer {
